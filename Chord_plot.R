@@ -2,7 +2,7 @@ library(circlize)  # 核心包，用来画弦图（Chord Diagram）
 library(cols4all)  # 用来生成丰富调色板（比如 Set3, rainbow 等）
 
 # Step1: 读取数据
-merge_data1 <- read.csv("C:/Users/Lamarck/Desktop/test.csv",
+merge_data1 <- read.csv("C:/Users/Lamarck/Desktop/Chordal_graph.csv",
                         header = TRUE,
                         check.names = FALSE,
                         fileEncoding = "UTF-8-BOM")
