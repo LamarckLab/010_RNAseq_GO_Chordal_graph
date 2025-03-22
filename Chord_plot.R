@@ -84,7 +84,7 @@ for(si in get.all.sector.index()) {
     track.index  = 1, 
     facing       = "clockwise", 
     col          = myCol,
-    cex          = 0.8,
+    cex          = 0.5,
     adj          = c(0, 0.5),
     niceFacing   = TRUE,
     xpd          = TRUE  # 允许文本超出图形范围
@@ -102,7 +102,7 @@ legend(
   legend= colnames(set1),            # 图例标签（通路名）
   col   = grid.col[colnames(set1)],  # 方形边框颜色
   pt.bg = grid.col[colnames(set1)],  # 方形填充颜色
-  cex   = 0.8,                       # 图例文本大小
+  cex   = 0.7,                       # 图例文本大小
   pt.cex= 2.5,                       # 图例中点大小
   border= "black",
   ncol  = 1,
