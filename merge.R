@@ -1,9 +1,9 @@
 # 读入第一个CSV：包含"Description"和"GeneID"两列
-df1 <- read.csv("C:/Users/Lamarck/Desktop/Description_GeneList.csv",
+df1 <- read.csv("C:/Users/Lamarck/Desktop/Description_geneID.csv",
                 stringsAsFactors = FALSE)
 
 # 读入第二个CSV：包含"gene"和"log2FoldChange"两列
-df2 <- read.csv("C:/Users/Lamarck/Desktop/Gene_Fold.csv",
+df2 <- read.csv("C:/Users/Lamarck/Desktop/gene_Fold.csv",
                 stringsAsFactors = FALSE)
 
 # 创建一个空的数据框，列名与目标一致
